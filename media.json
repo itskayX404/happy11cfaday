@@ -1,0 +1,83 @@
+{
+  "countdownBg": [
+    "assets/cd/1.jpg",
+    "assets/cd/2.jpg",
+    "assets/cd/3.jpg",
+    "assets/cd/4.jpg",
+    "assets/cd/5.jpg",
+    "assets/cd/6.jpg",
+    "assets/cd/7.jpg"
+  ],
+  "countdownBgInterval": 2500,
+
+  "polaroids": [
+    { "src": "assets/polaroid/1.jpg", "caption": "INI LUCU BANGET SIH ✦" },
+    { "src": "assets/polaroid/2.jpg", "caption": "Lucuuuu rambutnya" },
+    { "src": "assets/polaroid/3.jpg", "caption": "Cuantik banget pap sekul ☁️" },
+    { "src": "assets/polaroid/4.jpg", "caption": "WOAHHHHH 🌸" }
+  ],
+
+  "favPhotos": [
+    { "src": "assets/fav/1.jpg", "caption": "Yang paling kusuka ✦" },
+    { "src": "assets/fav/2.jpg", "caption": "PAP PERTAMA LU AHAY" },
+    { "src": "assets/fav/3.jpg", "caption": "INI KEREN" },
+    { "src": "assets/fav/4.jpg", "caption": "CUANTII BANGET" },
+    { "src": "assets/fav/5.jpg", "caption": "PAP MUKENA AHAY 🌸" },
+    { "src": "assets/fav/6.jpg", "caption": "CUANTIK" }
+  ],
+
+  "prankPhotos": [
+    "https://picsum.photos/seed/pr1/200/200",
+    "https://picsum.photos/seed/pr2/200/200",
+    "https://picsum.photos/seed/pr3/200/200",
+    "https://picsum.photos/seed/pr4/200/200",
+    "https://picsum.photos/seed/pr5/200/200",
+    "https://picsum.photos/seed/pr6/200/200"
+  ],
+
+  "albums": [
+
+    {
+      "id": "kenangan",
+      "name": "Kenangan",
+      "cover": "assets/cd/1.jpg",
+      "description": "Foto kenangan deh.",
+      "type": "photo",
+      "photos": [
+        { "id": "k1", "image": "assets/album/foto/kenangan/1.jpg", "caption": "PAP PERTAMAAAA LYUUU" },
+        { "id": "k2", "image": "assets/album/foto/kenangan/2.jpg", "caption": "jari lu lukaaa" },
+        { "id": "k3", "image": "assets/album/foto/kenangan/3.jpg", "caption": "part terseneng, rambut di iket" },
+        { "id": "k4", "image": "assets/album/foto/kenangan/4.jpg", "caption": "bareface ahay" }
+      ]
+    },
+
+    {
+      "id": "lucu",
+      "name": "Foto Lucu",
+      "cover": "assets/cd/3.jpg",
+      "description": "KUMPULAN FOTO LUCUU",
+      "type": "photo",
+      "photos": [
+        { "id": "l1", "image": "assets/album/foto/lucu/1.jpg", "caption": "INIMAH LUCU BANGET NO DEBAT" },
+        { "id": "l2", "image": "assets/album/foto/lucu/2.jpg", "caption": "Kecentilannn" },
+        { "id": "l3", "image": "assets/album/foto/lucu/3.jpg", "caption": "UPSSSSSSS" },
+        { "id": "l4", "image": "assets/album/foto/lucu/4.jpg", "caption": "ibu kosssss" }
+      ]
+    },
+
+    {
+      "id": "video",
+      "name": "Video",
+      "cover": "assets/cd/6.jpg",
+      "description": "Kumpulan video lu ( ga semua seh )",
+      "type": "video",
+      "photos": [
+        { "id": "v1", "type": "video", "src": "assets/album/video/1.mp4",  "thumb": "aaa", "caption": "pas sama adek lu niii" },
+        { "id": "v2", "type": "video", "src": "assets/album/video/2.mp4",    "thumb": "https://picsum.photos/seed/vt2/600/400", "caption": "CUANTIK NYAAAAA" },
+        { "id": "v3", "type": "video", "src": "assets/album/video/3.mp4",  "thumb": "https://picsum.photos/seed/vt3/600/400", "caption": "Pas ngabarin bajuuuu ahahaha" },
+          { "id": "v4", "type": "video", "src": "assets/album/video/4.mp4",  "thumb": "https://picsum.photos/seed/vt3/600/400", "caption": "BIKIN TREND WKWKWWK" }
+      ]
+    }
+
+  ]
+}
