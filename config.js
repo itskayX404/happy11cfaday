@@ -85,12 +85,12 @@ const CONFIG = {
   ────────────────────────────────────────── */
 
   // demoMode: true = skip countdown, langsung kue
-  demoMode: false,
+  demoMode: true,
 
   // demoAll: true = skip SEMUA (countdown + checkpoint + kue + loading)
   //          langsung masuk main site — untuk testing cepat
   // ✏️ Ganti ke false saat publish!
-  demoAll: true,
+  demoAll: false,
 
   /* ── PRANK ── */
   prankMode: false,
