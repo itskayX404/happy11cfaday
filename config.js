@@ -90,7 +90,7 @@ const CONFIG = {
   // demoAll: true = skip SEMUA (countdown + checkpoint + kue + loading)
   //          langsung masuk main site — untuk testing cepat
   // ✏️ Ganti ke false saat publish!
-  demoAll: false,
+  demoAll: true,
 
   /* ── PRANK ── */
   prankMode: false,
